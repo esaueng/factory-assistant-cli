@@ -12,7 +12,7 @@ var backupsInfoCmd = &cobra.Command{
 	Aliases: []string{"in", "inf"},
 	Short:   "Provides information about the current available backups",
 	Long: `
-When a Home Assistant backup is created, it will be available for restore.
+When a Factory Assistant backup is created, it will be available for restore.
 This command gives you information about a specific backup.`,
 	Example: `
   ha backups info c1a07617`,

@@ -12,9 +12,9 @@ var appsRebuildForce bool
 var appsRebuildCmd = &cobra.Command{
 	Use:     "rebuild [slug]",
 	Aliases: []string{"rb", "reinstall"},
-	Short:   "Rebuild a locally built Home Assistant app",
+	Short:   "Rebuild a locally built Factory Assistant app",
 	Long: `
-Most apps provide pre-built images Home Assistant can download and use.
+Most apps provide pre-built images Factory Assistant can download and use.
 However, some don't. This is usually the case for local or development version
 of apps. This command allows you to trigger a rebuild of a locally built app.
 `,

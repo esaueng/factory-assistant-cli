@@ -10,9 +10,9 @@ import (
 var audioUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the Home Assistant Audio",
+	Short:   "Updates the Factory Assistant Audio",
 	Long: `
-Using this command you can upgrade or downgrade the Home Assistant Audio
+Using this command you can upgrade or downgrade the Factory Assistant Audio
 instance running on your system to the latest version or the version specified.`,
 	Example: `
   ha audio update

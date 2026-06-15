@@ -10,9 +10,9 @@ import (
 var coreStopCmd = &cobra.Command{
 	Use:     "stop",
 	Aliases: []string{},
-	Short:   "Manually stop Home Assistant Core",
+	Short:   "Manually stop Factory Assistant Core",
 	Long: `
-This command allows you to manually stop the Home Assistant Core instance on
+This command allows you to manually stop the Factory Assistant Core instance on
 your system.`,
 	Example: `
   ha core stop`,

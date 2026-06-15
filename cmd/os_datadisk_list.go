@@ -10,9 +10,9 @@ import (
 var osDataDiskListCmd = &cobra.Command{
 	Use:     "list",
 	Aliases: []string{"in", "inf", "info", "show"},
-	Short:   "Provides information about the running Home Assistant Operating System",
+	Short:   "Provides information about the running Factory Assistant Operating System",
 	Long: `
-This command provides general information about available Harddisk for using with Home Assistant Operating System.
+This command provides general information about available Harddisk for using with Factory Assistant Operating System.
 `,
 	Example: `
   ha os datadisk list

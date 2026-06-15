@@ -10,9 +10,9 @@ import (
 var cliUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the internal Home Assistant CLI backend",
+	Short:   "Updates the internal Factory Assistant CLI backend",
 	Long: `
-Using this command you can upgrade or downgrade the internal Home Assistant 
+Using this command you can upgrade or downgrade the internal Factory Assistant 
 CLI backend, to the latest version or the version specified.
 `,
 	Example: `

@@ -9,8 +9,8 @@ import (
 
 var dnsResetCmd = &cobra.Command{
 	Use:               "reset",
-	Short:             "Resets the internal Home Assistant DNS server configuration",
-	Long:              `Resets the internal Home Assistant DNS server configuration.`,
+	Short:             "Resets the internal Factory Assistant DNS server configuration",
+	Long:              `Resets the internal Factory Assistant DNS server configuration.`,
 	Example:           `ha dns reset`,
 	ValidArgsFunction: cobra.NoFileCompletions,
 	Args:              cobra.NoArgs,

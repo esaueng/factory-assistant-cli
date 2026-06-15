@@ -12,7 +12,7 @@ var hostShutdownCmd = &cobra.Command{
 	Aliases: []string{"sh"},
 	Short:   "Shutdown the host machine",
 	Long: `
-Shuts down the machine that your Home Assistant is running on.
+Shuts down the machine that your Factory Assistant is running on.
 WARNING: This is turning off the computer/device.`,
 	Example: `
   ha host shutdown`,

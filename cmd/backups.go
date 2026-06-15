@@ -16,7 +16,7 @@ var backupsCmd = &cobra.Command{
 	Aliases: []string{"backup", "back", "backups", "bk", "snapshots", "snapshot", "snap", "shot", "sn"},
 	Short:   "Create, restore and remove backups",
 	Long: `
-Backups of your Home Assistant system, which you can create,
+Backups of your Factory Assistant system, which you can create,
 restore, and delete using this command.`,
 	Example: `
   ha backups

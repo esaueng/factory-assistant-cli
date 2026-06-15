@@ -14,7 +14,7 @@ var securityOptionsCmd = &cobra.Command{
 	Short:   "Allow to set options for the Security backend",
 	Long: `
 This command allows you to set configuration options for the internally
-Home Assistant Security backend.
+Factory Assistant Security backend.
 `,
 	Example: `
   ha security options --force-security=True

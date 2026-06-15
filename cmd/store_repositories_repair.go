@@ -10,7 +10,7 @@ import (
 var storeRepositoriesRepairCmd = &cobra.Command{
 	Use:     "repair [slug]",
 	Aliases: []string{"reset"},
-	Short:   "Repair/reset repository from Home Assistant store",
+	Short:   "Repair/reset repository from Factory Assistant store",
 	Long: `
 Repair/reset a repository of apps that is missing from the store,
 showing incorrect information, or otherwise working incorrectly.

@@ -10,9 +10,9 @@ import (
 var authListCmd = &cobra.Command{
 	Use:     "list",
 	Aliases: []string{"ls"},
-	Short:   "List all Home Assistant users.",
+	Short:   "List all Factory Assistant users.",
 	Long: `
-This command allows you to list all Home Assistant users on the system.
+This command allows you to list all Factory Assistant users on the system.
 Please note, this command is limited due to security reasons, and will
 only work on some locations. For example, the Operating System CLI.
 `,

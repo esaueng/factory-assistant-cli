@@ -10,9 +10,9 @@ import (
 var cliInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Shows information about the internal Home Assistant CLI backend",
+	Short:   "Shows information about the internal Factory Assistant CLI backend",
 	Long: `
-Shows information about the internally running Home Assistant CLI backend
+Shows information about the internally running Factory Assistant CLI backend
 `,
 	Example: `
   ha cli info

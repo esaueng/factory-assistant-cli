@@ -10,9 +10,9 @@ import (
 var multicastUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the internal Home Assistant Multicast server",
+	Short:   "Updates the internal Factory Assistant Multicast server",
 	Long: `
-Using this command you can upgrade or downgrade the internal Home Assistant 
+Using this command you can upgrade or downgrade the internal Factory Assistant 
 Multicast server, to the latest version or the version specified.
 `,
 	Example: `
