@@ -10,9 +10,9 @@ import (
 var infoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Provides a general Home Assistant information overview",
+	Short:   "Provides a general Factory Assistant information overview",
 	Long: `
-This command provide a general information about your Home Assistant system.
+This command provide a general information about your Factory Assistant system.
 The information provide can be useful for sharing when you are encountering
 issues or when reporting one on GitHub.
 	`,

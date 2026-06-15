@@ -9,10 +9,10 @@ import (
 
 var backupsRestoreCmd = &cobra.Command{
 	Use:   "restore [slug]",
-	Short: "Restores a Home Assistant backup",
+	Short: "Restores a Factory Assistant backup",
 	Long: `
 When something goes wrong, this command allows you to restore a previously
-take Home Assistant backup on your system.`,
+take Factory Assistant backup on your system.`,
 	Example: `
   ha backups restore c1a07617
   ha backups restore c1a07617 --app core_ssh --app core_mosquitto

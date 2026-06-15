@@ -14,7 +14,7 @@ var osConfigSwapOptionsCmd = &cobra.Command{
 	Aliases: []string{"option", "opt", "opts", "op"},
 	Short:   "Change HAOS swap settings",
 	Long: `
-This command allows you to override how the Home Assistant OS uses swap.`,
+This command allows you to override how the Factory Assistant OS uses swap.`,
 	Example: `
   ha os config swap options --swap-size=2G --swappiness=10`,
 	ValidArgsFunction: cobra.NoFileCompletions,

@@ -13,7 +13,7 @@ var jobsOptionsCmd = &cobra.Command{
 	Short:   "Allow to set options for the Job Manager backend",
 	Long: `
 This command allows you to set configuration options for the internally
-Home Assistant Job Manager.
+Factory Assistant Job Manager.
 `,
 	Example: `
   ha jobs options --ignore-conditions healthy

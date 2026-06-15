@@ -10,8 +10,8 @@ import (
 var multicastRestartCmd = &cobra.Command{
 	Use:     "restart",
 	Aliases: []string{"reboot"},
-	Short:   "Restarts the internal Home Assistant Multicast server",
-	Long:    `Restart the internal Home Assistant Multicast server running`,
+	Short:   "Restarts the internal Factory Assistant Multicast server",
+	Long:    `Restart the internal Factory Assistant Multicast server running`,
 	Example: `
   ha multicast restart`,
 	ValidArgsFunction: cobra.NoFileCompletions,

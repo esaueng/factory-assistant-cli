@@ -10,8 +10,8 @@ import (
 var audioRestartCmd = &cobra.Command{
 	Use:     "restart",
 	Aliases: []string{"reboot"},
-	Short:   "Restarts the internal Home Assistant Audio",
-	Long:    `Restart the internal Home Assistant Audio`,
+	Short:   "Restarts the internal Factory Assistant Audio",
+	Long:    `Restart the internal Factory Assistant Audio`,
 	Example: `
   ha audio restart`,
 	ValidArgsFunction: cobra.NoFileCompletions,

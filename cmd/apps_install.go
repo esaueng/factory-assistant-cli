@@ -10,9 +10,9 @@ import (
 var appsInstallCmd = &cobra.Command{
 	Use:     "install [slug]",
 	Aliases: []string{"i", "inst"},
-	Short:   "Installs a Home Assistant app",
+	Short:   "Installs a Factory Assistant app",
 	Long: `
-This command allows you to install a Home Assistant app from the commandline.
+This command allows you to install a Factory Assistant app from the commandline.
 `,
 	Example: `
   ha apps install core_ssh

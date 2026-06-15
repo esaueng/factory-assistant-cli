@@ -10,9 +10,9 @@ import (
 var appsUninstallCmd = &cobra.Command{
 	Use:     "uninstall [slug]",
 	Aliases: []string{"remove", "delete", "del", "rem", "un", "uninst"},
-	Short:   "Uninstalls a Home Assistant app",
+	Short:   "Uninstalls a Factory Assistant app",
 	Long: `
-This command allows you to uninstall a Home Assistant app.
+This command allows you to uninstall a Factory Assistant app.
 `,
 	Example: `
   ha apps uninstall core_ssh

@@ -10,9 +10,9 @@ import (
 var authCacheCmd = &cobra.Command{
 	Use:     "cache",
 	Aliases: []string{"data", "ca"},
-	Short:   "Reset the auth cache of Home Assistant on Supervisor.",
+	Short:   "Reset the auth cache of Factory Assistant on Supervisor.",
 	Long: `
-This command allows you to reset the internal password cache of a Home Assistant auth.
+This command allows you to reset the internal password cache of a Factory Assistant auth.
 `,
 	Example: `
   ha authentication cache

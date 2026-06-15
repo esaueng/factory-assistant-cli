@@ -10,9 +10,9 @@ import (
 var observerInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Shows information about the internal Home Assistant observer",
+	Short:   "Shows information about the internal Factory Assistant observer",
 	Long: `
-Shows information about the internally running Home Assistant observer
+Shows information about the internally running Factory Assistant observer
 `,
 	Example: `
   ha observer info

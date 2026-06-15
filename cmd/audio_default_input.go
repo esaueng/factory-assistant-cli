@@ -10,10 +10,10 @@ import (
 var audioDefaultInputCmd = &cobra.Command{
 	Use:     "input",
 	Aliases: []string{"in"},
-	Short:   "Set the default Home Assistant Audio input channel",
+	Short:   "Set the default Factory Assistant Audio input channel",
 	Long: `
 This command allows you to set the default input channel of the
-Home Assistant Audio on your Home Assistant system.`,
+Factory Assistant Audio on your Factory Assistant system.`,
 	Example: `
 	ha audio default input --name "..."
 `,

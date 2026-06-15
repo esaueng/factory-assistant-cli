@@ -10,7 +10,7 @@ import (
 var audioProfileCmd = &cobra.Command{
 	Use:     "profile",
 	Aliases: []string{"pro"},
-	Short:   "Set the Home Assistant Audio profile for a card",
+	Short:   "Set the Factory Assistant Audio profile for a card",
 	Long: `
 This command allows you to set the audio profile on a audio card.`,
 	Example: `

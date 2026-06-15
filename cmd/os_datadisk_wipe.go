@@ -10,18 +10,18 @@ import (
 var osDataDiskWipeCmd = &cobra.Command{
 	Use:     "wipe",
 	Aliases: []string{"wipe", "reset", "erase"},
-	Short:   "Wipe the Home Assistant Operating-System data partition",
+	Short:   "Wipe the Factory Assistant Operating-System data partition",
 	Long: `
-This command will wipe all config/settings for apps, Home Assistant and the Operating
+This command will wipe all config/settings for apps, Factory Assistant and the Operating
 System and any locally stored data in config, backups, media, etc. The machine will
 reboot during this.
 
-After the reboot completes the latest stable version of Home Assistant and Supervisor
+After the reboot completes the latest stable version of Factory Assistant and Supervisor
 will be downloaded. Once the process is complete you will see onboarding, like
 during initial setup.
 
 This wipe also include network settings. So after the reboot you may need to reconfigure
-those in order to access Home Assistant again.
+those in order to access Factory Assistant again.
 
 Please note, this command is limited due to security reasons, and will
 only work on some locations. For example, the Operating System CLI.

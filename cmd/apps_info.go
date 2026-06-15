@@ -10,7 +10,7 @@ import (
 var appsInfoCmd = &cobra.Command{
 	Use:     "info [slug]",
 	Aliases: []string{"in", "info"},
-	Short:   "Show information about available Home Assistant apps",
+	Short:   "Show information about available Factory Assistant apps",
 	Long: `
 This command can provide information on all available apps or, if a slug
 is provided, information about a specific app.

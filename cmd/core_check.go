@@ -10,12 +10,12 @@ import (
 var coreCheckCmd = &cobra.Command{
 	Use:     "check",
 	Aliases: []string{"validate", "chk", "ch"},
-	Short:   "Validates your Home Assistant Core configuration",
+	Short:   "Validates your Factory Assistant Core configuration",
 	Long: `
 This commands allows you to check/validate your, currently on disk stored,
-Home Assistant Core configuration. This is helpful when you've made changes and
+Factory Assistant Core configuration. This is helpful when you've made changes and
 want to make sure the configuration is right, before restarting
-Home Assistant Core.`,
+Factory Assistant Core.`,
 	Example: `
   ha core check`,
 	ValidArgsFunction: cobra.NoFileCompletions,
