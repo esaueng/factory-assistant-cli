@@ -42,7 +42,7 @@ to complete the migration.
 
 		confirmed, err := helper.AskForConfirmation(`
 This will schedule a Docker storage driver migration to "`+storageDriver+`".
-Make sure to create a full Home Assistant backup before proceeding.
+Make sure to create a full Factory Assistant backup before proceeding.
 
 Internet connectivity is required for re-download of all the container images
 and it is recommended to have at least 50% of free storage.

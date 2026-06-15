@@ -9,12 +9,12 @@ import (
 var supervisorCmd = &cobra.Command{
 	Use:     "supervisor",
 	Aliases: []string{"super", "su"},
-	Short:   "Monitor, control and configure the Home Assistant Supervisor",
+	Short:   "Monitor, control and configure the Factory Assistant Supervisor",
 	Long: `
-The Home Assistant Supervisor is the heart of the Home Assistant system.
-It manages your Home Assistant Core, Operating System, and all the apps.
+The Factory Assistant Supervisor is the heart of the Factory Assistant system.
+It manages your Factory Assistant Core, Operating System, and all the apps.
 It even manages itself! This series of command give you control over the
-Home Assistant Supervisor.`,
+Factory Assistant Supervisor.`,
 	Example: `
   ha supervisor reload
   ha supervisor update

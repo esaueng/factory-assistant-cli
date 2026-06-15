@@ -10,9 +10,9 @@ import (
 var dnsStatsCmd = &cobra.Command{
 	Use:     "stats",
 	Aliases: []string{"status", "stat"},
-	Short:   "Provides system usage stats of the Home Assistant DNS server",
+	Short:   "Provides system usage stats of the Factory Assistant DNS server",
 	Long: `
-Provides insight into the system usage stats of the Home Assistant DNS server.
+Provides insight into the system usage stats of the Factory Assistant DNS server.
 It shows you how much CPU, memory, disk & network resources it uses.
 `,
 	Example: `

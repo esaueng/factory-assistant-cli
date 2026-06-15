@@ -12,9 +12,9 @@ import (
 var storeCmd = &cobra.Command{
 	Use:     "store",
 	Aliases: []string{"shop", "stor"},
-	Short:   "Install and update Home Assistant apps and manage stores",
+	Short:   "Install and update Factory Assistant apps and manage stores",
 	Long: `
-The store command allows you to manage Home Assistant apps by exposing
+The store command allows you to manage Factory Assistant apps by exposing
 commands for installing or updating them. It also provides functionality
 for managing stores that provide additional apps.`,
 	Example: `

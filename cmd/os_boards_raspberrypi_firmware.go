@@ -34,7 +34,7 @@ func getRPiFirmwareInfo() (*resty.Response, error) {
 			return nil, errors.New(data.Message)
 		}
 		return nil, errors.New("firmware information is not available on this system " +
-			"(requires a Raspberry Pi 4 / 5 or Home Assistant Yellow with Home Assistant OS 18.0 or newer)")
+			"(requires a Raspberry Pi 4 / 5 or Factory Assistant Yellow with Factory Assistant OS 18.0 or newer)")
 	}
 
 	return helper.GenericJSONErrorHandling(resp, err)
@@ -78,7 +78,7 @@ var osBoardsRaspberrypiFirmwareCmd = &cobra.Command{
 	Long: `
 This command shows information about the Raspberry Pi bootloader (EEPROM) firmware,
 including the currently installed and latest bundled versions and whether an update
-is available. Available on Raspberry Pi 4 / 5 and Home Assistant Yellow.`,
+is available. Available on Raspberry Pi 4 / 5 and Factory Assistant Yellow.`,
 	Example: `
   ha os boards raspberrypi firmware`,
 	ValidArgsFunction: cobra.NoFileCompletions,

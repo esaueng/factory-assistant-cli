@@ -10,9 +10,9 @@ import (
 var coreUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the Home Assistant Core",
+	Short:   "Updates the Factory Assistant Core",
 	Long: `
-Using this command you can upgrade or downgrade the Home Assistant Core instance
+Using this command you can upgrade or downgrade the Factory Assistant Core instance
 running on your system to the latest version or the version specified.`,
 	Example: `
   ha core update

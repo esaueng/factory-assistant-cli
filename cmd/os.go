@@ -14,9 +14,9 @@ var osCmd = &cobra.Command{
 	Aliases: []string{"hassos"},
 	Short:   "Operating System specific for updating, info and configuration imports",
 	Long: `
-This command set is specifically designed for the Home Assistant Operating System
+This command set is specifically designed for the Factory Assistant Operating System
 and only works on those systems. It provides an interface to get information
-about your Home Assistant Operating System, but also provides command to
+about your Factory Assistant Operating System, but also provides command to
 upgrade the operating system and the operating system CLI. Finally,
 it provides a command to import configurations from a USB stick.`,
 	Example: `

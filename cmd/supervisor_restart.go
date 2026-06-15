@@ -10,7 +10,7 @@ import (
 var supervisorRestartCmd = &cobra.Command{
 	Use:     "restart",
 	Aliases: []string{"reboot"},
-	Short:   "Restart the Home Assistant Supervisor",
+	Short:   "Restart the Factory Assistant Supervisor",
 	Long: `
 Restart the Supervisor internal, this can solve healthy issues.`,
 	Example: `

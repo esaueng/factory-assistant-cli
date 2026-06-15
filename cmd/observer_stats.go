@@ -10,9 +10,9 @@ import (
 var observerStatsCmd = &cobra.Command{
 	Use:     "stats",
 	Aliases: []string{"status", "stat"},
-	Short:   "Provides system usage stats of the Home Assistant observer",
+	Short:   "Provides system usage stats of the Factory Assistant observer",
 	Long: `
-Provides insight into the system usage stats of the Home Assistant observer.
+Provides insight into the system usage stats of the Factory Assistant observer.
 It shows you how much CPU, memory, disk & network resources it uses.
 `,
 	Example: `

@@ -10,9 +10,9 @@ import (
 var cliStatsCmd = &cobra.Command{
 	Use:     "stats",
 	Aliases: []string{"status", "stat"},
-	Short:   "Provides system usage stats of the Home Assistant CLI backend",
+	Short:   "Provides system usage stats of the Factory Assistant CLI backend",
 	Long: `
-Provides insight into the system usage stats of the Home Assistant CLI backend.
+Provides insight into the system usage stats of the Factory Assistant CLI backend.
 It shows you how much CPU, memory, disk & network resources it uses.
 `,
 	Example: `

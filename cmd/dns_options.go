@@ -10,10 +10,10 @@ import (
 var dnsOptionsCmd = &cobra.Command{
 	Use:     "options",
 	Aliases: []string{"option", "opt", "opts", "op"},
-	Short:   "Allow to set options for the internal Home Assistant DNS server",
+	Short:   "Allow to set options for the internal Factory Assistant DNS server",
 	Long: `
 This command allows you to set configuration options for the internally
-running Home Assistant DNS server.
+running Factory Assistant DNS server.
 `,
 	Example: `
   ha dns options --servers dns://8.8.8.8 --servers dns://1.1.1.1

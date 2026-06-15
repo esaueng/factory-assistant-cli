@@ -13,7 +13,7 @@ var osImportCmd = &cobra.Command{
 	Short:   "Import configurations from a USB stick",
 	Long: `
 This commands triggers an import action from a connected USB stick with
-configuration to load for the Home Assistant Operating System.
+configuration to load for the Factory Assistant Operating System.
 `,
 	Example: `
   ha os import

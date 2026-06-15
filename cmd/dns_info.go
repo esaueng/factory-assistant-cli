@@ -10,9 +10,9 @@ import (
 var dnsInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Shows information about the internal Home Assistant DNS server",
+	Short:   "Shows information about the internal Factory Assistant DNS server",
 	Long: `
-Shows information about the internally running Home Assistant DNS server
+Shows information about the internally running Factory Assistant DNS server
 `,
 	Example: `
   ha dns info

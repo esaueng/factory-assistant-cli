@@ -13,7 +13,7 @@ var hardwareInfoCmd = &cobra.Command{
 	Short:   "Provides hardware information about your system",
 	Long: `
 The hardware command provides information about the hardware of your system
-that is running Home Assistant. It is useful for finding things like: available 
+that is running Factory Assistant. It is useful for finding things like: available 
 serial ports.`,
 	Example:           `ha hardware info`,
 	ValidArgsFunction: cobra.NoFileCompletions,

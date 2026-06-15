@@ -10,9 +10,9 @@ import (
 var supervisorReloadCmd = &cobra.Command{
 	Use:     "reload",
 	Aliases: []string{"refresh", "re"},
-	Short:   "Reload the Home Assistant Supervisor updating information",
+	Short:   "Reload the Factory Assistant Supervisor updating information",
 	Long: `
-Reloading the Home Assistant Supervisor, triggers the Supervisor to regather
+Reloading the Factory Assistant Supervisor, triggers the Supervisor to regather
 all data it currently has, including checking for updates.`,
 	Example: `
   ha supervisor reload`,

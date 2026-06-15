@@ -12,9 +12,9 @@ var hostReloadCmd = &cobra.Command{
 	Aliases: []string{"update", "refresh", "re"},
 	Short:   "Reload information from the host machine",
 	Long: `
-This commands reload the information Home Assistant has on the hostmachine.
-If some setting are changed outside of Home Assistant, this commands updates
-the internals of Home Assistant.`,
+This commands reload the information Factory Assistant has on the hostmachine.
+If some setting are changed outside of Factory Assistant, this commands updates
+the internals of Factory Assistant.`,
 	Example: `
   ha host reload`,
 	ValidArgsFunction: cobra.NoFileCompletions,

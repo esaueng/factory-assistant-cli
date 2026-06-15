@@ -12,7 +12,7 @@ var hostRebootCmd = &cobra.Command{
 	Aliases: []string{"restart", "rb"},
 	Short:   "Reboots the host machine",
 	Long: `
-Reboot the machine that your Home Assistant is running on.`,
+Reboot the machine that your Factory Assistant is running on.`,
 	Example: `
   ha host reboot`,
 	ValidArgsFunction: cobra.NoFileCompletions,

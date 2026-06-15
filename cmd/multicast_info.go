@@ -10,9 +10,9 @@ import (
 var multicastInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Shows information about the internal Home Assistant Multicast server",
+	Short:   "Shows information about the internal Factory Assistant Multicast server",
 	Long: `
-Shows information about the internally running Home Assistant Multicast server
+Shows information about the internally running Factory Assistant Multicast server
 `,
 	Example: `
   ha multicast info

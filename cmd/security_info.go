@@ -10,9 +10,9 @@ import (
 var securityInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Provides information about the Home Assistant Security backend",
+	Short:   "Provides information about the Factory Assistant Security backend",
 	Long: `
-This command provides general information about the Home Assistant Security backend.
+This command provides general information about the Factory Assistant Security backend.
 `,
 	Example: `
   ha security info

@@ -10,9 +10,9 @@ import (
 var osUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the Home Assistant Operating System",
+	Short:   "Updates the Factory Assistant Operating System",
 	Long: `
-Using this command you can upgrade or downgrade the Home Assistant 
+Using this command you can upgrade or downgrade the Factory Assistant 
 Operating System to the latest version or the version specified.
 `,
 	Example: `

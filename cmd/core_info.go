@@ -10,10 +10,10 @@ import (
 var coreInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Provides information about Home Assistant Core",
+	Short:   "Provides information about Factory Assistant Core",
 	Long: `
-This command provides information about the running Home Assistant Core instance
-running on your Home Assistant system.`,
+This command provides information about the running Factory Assistant Core instance
+running on your Factory Assistant system.`,
 	Example: `
   ha core info`,
 	ValidArgsFunction: cobra.NoFileCompletions,

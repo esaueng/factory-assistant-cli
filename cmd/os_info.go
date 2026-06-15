@@ -10,9 +10,9 @@ import (
 var osInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Provides information about the running Home Assistant Operating System",
+	Short:   "Provides information about the running Factory Assistant Operating System",
 	Long: `
-This command provides general information about the running Home Assistant Operating System.
+This command provides general information about the running Factory Assistant Operating System.
 `,
 	Example: `
   ha os info

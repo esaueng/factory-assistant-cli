@@ -10,9 +10,9 @@ import (
 var coreStartCmd = &cobra.Command{
 	Use:     "start",
 	Aliases: []string{"run", "st"},
-	Short:   "Manually start Home Assistant Core",
+	Short:   "Manually start Factory Assistant Core",
 	Long: `
-This command allows you to manually start the Home Assistant Core instance on
+This command allows you to manually start the Factory Assistant Core instance on
 your system. This, of course, only applies when it has been stopped.`,
 	Example: `
   ha core start`,

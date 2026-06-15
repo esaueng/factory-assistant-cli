@@ -10,9 +10,9 @@ import (
 var jobsInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Provides information about the Home Assistant Job Manager",
+	Short:   "Provides information about the Factory Assistant Job Manager",
 	Long: `
-This command provides general information about the Home Assistant Job backend.
+This command provides general information about the Factory Assistant Job backend.
 `,
 	Example: `
   ha jobs info

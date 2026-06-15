@@ -12,10 +12,10 @@ import (
 var coreOptionsCmd = &cobra.Command{
 	Use:     "options",
 	Aliases: []string{"option", "opt", "opts", "op"},
-	Short:   "Allow to set options on Home Assistant Core instance",
+	Short:   "Allow to set options on Factory Assistant Core instance",
 	Long: `
-This command allows you to set configuration options for the Home Assistant Core
-instance running on your Home Assistant system.`,
+This command allows you to set configuration options for the Factory Assistant Core
+instance running on your Factory Assistant system.`,
 	Example: `
   ha core options --backups-exclude-database=true`,
 	ValidArgsFunction: cobra.NoFileCompletions,
@@ -76,13 +76,13 @@ instance running on your Home Assistant system.`,
 func init() {
 	coreOptionsCmd.Flags().Bool("boot", true, "Start Core on boot")
 	coreOptionsCmd.Flags().String("image", "", "Optional image")
-	coreOptionsCmd.Flags().Int("port", 8123, "Port to access Home Assistant Core")
+	coreOptionsCmd.Flags().Int("port", 8123, "Port to access Factory Assistant Core")
 	coreOptionsCmd.Flags().Bool("ssl", false, "Use SSL")
 	coreOptionsCmd.Flags().Bool("watchdog", true, "Use watchdog")
 	coreOptionsCmd.Flags().String("refresh-token", "", "Refresh token")
 	coreOptionsCmd.Flags().String("audio-input", "", "Profile name for audio input")
 	coreOptionsCmd.Flags().String("audio-output", "", "Profile name for audio output")
-	coreOptionsCmd.Flags().Bool("backups-exclude-database", false, "Backups exclude Home Assistant database file by default")
+	coreOptionsCmd.Flags().Bool("backups-exclude-database", false, "Backups exclude Factory Assistant database file by default")
 	coreOptionsCmd.Flags().Lookup("backups-exclude-database").NoOptDefVal = "false"
 	coreOptionsCmd.Flags().Bool("duplicate-log-file", false, "Duplicate logs to file alongside Systemd Journal")
 	coreOptionsCmd.Flags().Lookup("duplicate-log-file").NoOptDefVal = "false"
