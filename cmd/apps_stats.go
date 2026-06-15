@@ -10,7 +10,7 @@ import (
 var appsStatsCmd = &cobra.Command{
 	Use:     "stats [slug]",
 	Aliases: []string{"status", "stat"},
-	Short:   "Provides system usage stats of a Home Assistant app",
+	Short:   "Provides system usage stats of a Factory Assistant app",
 	Long: `
 Provides insight into the system usage stats of an app. It shows you
 how much CPU, memory, disk & network resources it uses.

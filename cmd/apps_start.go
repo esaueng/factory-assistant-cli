@@ -10,9 +10,9 @@ import (
 var appsStartCmd = &cobra.Command{
 	Use:     "start [slug]",
 	Aliases: []string{"run", "st"},
-	Short:   "Manually start a stopped Home Assistant app",
+	Short:   "Manually start a stopped Factory Assistant app",
 	Long: `
-This command allows you to manually start a stopped Home Assistant app
+This command allows you to manually start a stopped Factory Assistant app
 `,
 	Example: `
   ha apps start core_ssh

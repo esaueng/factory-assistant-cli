@@ -12,7 +12,7 @@ var hostInfoCmd = &cobra.Command{
 	Aliases: []string{"in", "inf"},
 	Short:   "Provides information on the host system",
 	Long: `
-This command provides information on the host system Home Assistant is
+This command provides information on the host system Factory Assistant is
 running on`,
 	Example: `
   ha host info`,

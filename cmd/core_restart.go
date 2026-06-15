@@ -10,9 +10,9 @@ import (
 var coreRestartCmd = &cobra.Command{
 	Use:     "restart",
 	Aliases: []string{"reboot"},
-	Short:   "Restarts the Home Assistant Core",
+	Short:   "Restarts the Factory Assistant Core",
 	Long: `
-Restart the Home Assistant Core instance running on your system`,
+Restart the Factory Assistant Core instance running on your system`,
 	Example: `
   ha core restart`,
 	ValidArgsFunction: cobra.NoFileCompletions,
@@ -48,7 +48,7 @@ Restart the Home Assistant Core instance running on your system`,
 }
 
 func init() {
-	coreRestartCmd.Flags().BoolP("safe-mode", "s", false, "Restart Home Assistant in safe mode")
+	coreRestartCmd.Flags().BoolP("safe-mode", "s", false, "Restart Factory Assistant in safe mode")
 	coreRestartCmd.Flags().BoolP("force", "f", false, "Force restart during an offline db migration")
 	coreRestartCmd.Flags().Lookup("safe-mode").NoOptDefVal = "true"
 	coreRestartCmd.Flags().Lookup("force").NoOptDefVal = "true"

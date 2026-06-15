@@ -10,9 +10,9 @@ import (
 var dnsUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the internal Home Assistant DNS server",
+	Short:   "Updates the internal Factory Assistant DNS server",
 	Long: `
-Using this command you can upgrade or downgrade the internal Home Assistant 
+Using this command you can upgrade or downgrade the internal Factory Assistant 
 DNS server, to the latest version or the version specified.
 `,
 	Example: `

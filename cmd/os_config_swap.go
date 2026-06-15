@@ -7,10 +7,10 @@ import (
 var osConfigSwapCmd = &cobra.Command{
 	Use:     "swap",
 	Aliases: []string{"sw"},
-	Short:   "Show or change Home Assistant OS swap settings",
+	Short:   "Show or change Factory Assistant OS swap settings",
 	Long: `
 This command allows you to show or change current swap configuration
-of Home Assistant OS.`,
+of Factory Assistant OS.`,
 	Example: `
   ha os config swap info`,
 }

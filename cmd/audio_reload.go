@@ -10,9 +10,9 @@ import (
 var audioReloadCmd = &cobra.Command{
 	Use:     "reload",
 	Aliases: []string{"refresh", "re"},
-	Short:   "Reload the Home Assistant Audio updating information",
+	Short:   "Reload the Factory Assistant Audio updating information",
 	Long: `
-Reloading the Home Assistant Audio, triggers the to regather
+Reloading the Factory Assistant Audio, triggers the to regather
 all data and devices it currently has.`,
 	Example: `
   ha audio reload`,

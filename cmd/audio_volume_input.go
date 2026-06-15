@@ -10,10 +10,10 @@ import (
 var audioVolumeInputCmd = &cobra.Command{
 	Use:     "input",
 	Aliases: []string{"in"},
-	Short:   "Set volume of a Home Assistant Audio input channel",
+	Short:   "Set volume of a Factory Assistant Audio input channel",
 	Long: `
-This command allows you to set the volume of a Home Assistant Audio
-input channel or application on your Home Assistant system.`,
+This command allows you to set the volume of a Factory Assistant Audio
+input channel or application on your Factory Assistant system.`,
 	Example: `
 	ha audio volume input --index 1 --mute
 	ha audio volume input --index 1 --unmute

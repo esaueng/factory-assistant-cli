@@ -13,7 +13,7 @@ var hostDisksUsageCmd = &cobra.Command{
 	Short:   "Get default disk usage information",
 	Long: `
 This command provides information about the default disk usage on the host system
-that Home Assistant is running on.`,
+that Factory Assistant is running on.`,
 	Example: `
   ha host disks usage`,
 	ValidArgsFunction: cobra.NoFileCompletions,

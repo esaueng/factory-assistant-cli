@@ -13,7 +13,7 @@ var hostOptionsCmd = &cobra.Command{
 	Short:   "Allow to set options on host system",
 	Long: `
 This command allows you to set configuration options on the host system that 
-your Home Assistant is running on.`,
+your Factory Assistant is running on.`,
 	Example: `
   ha host options --hostname homeassistant.local`,
 	ValidArgsFunction: cobra.NoFileCompletions,

@@ -10,10 +10,10 @@ import (
 var supervisorUpdateCmd = &cobra.Command{
 	Use:     "update",
 	Aliases: []string{"upgrade", "downgrade", "up", "down"},
-	Short:   "Updates the Home Assistant Supervisor",
+	Short:   "Updates the Factory Assistant Supervisor",
 	Long: `
-Using this command you can upgrade or downgrade the Home Assistant Supervisor
-running on your Home Assistant  system to the latest version
+Using this command you can upgrade or downgrade the Factory Assistant Supervisor
+running on your Factory Assistant  system to the latest version
 or the version specified.`,
 	Example: `
   ha supervisor update

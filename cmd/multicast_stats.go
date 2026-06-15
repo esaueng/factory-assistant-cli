@@ -10,9 +10,9 @@ import (
 var multicastStatsCmd = &cobra.Command{
 	Use:     "stats",
 	Aliases: []string{"status", "stat"},
-	Short:   "Provides system usage stats of the Home Assistant Multicast server",
+	Short:   "Provides system usage stats of the Factory Assistant Multicast server",
 	Long: `
-Provides insight into the system usage stats of the Home Assistant Multicast server.
+Provides insight into the system usage stats of the Factory Assistant Multicast server.
 It shows you how much CPU, memory, disk & network resources it uses.
 `,
 	Example: `

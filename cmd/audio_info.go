@@ -10,10 +10,10 @@ import (
 var audioInfoCmd = &cobra.Command{
 	Use:     "info",
 	Aliases: []string{"in", "inf"},
-	Short:   "Provides information about Home Assistant Audio devices",
+	Short:   "Provides information about Factory Assistant Audio devices",
 	Long: `
-This command provides information about the running Home Assistant Audio instance
-running on your Home Assistant system, including its devices.`,
+This command provides information about the running Factory Assistant Audio instance
+running on your Factory Assistant system, including its devices.`,
 	Example: `
   ha audio info`,
 	ValidArgsFunction: cobra.NoFileCompletions,

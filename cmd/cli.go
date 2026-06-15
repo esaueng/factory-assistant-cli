@@ -6,9 +6,9 @@ import (
 
 var cliCmd = &cobra.Command{
 	Use:   "cli",
-	Short: "Get information, update or configure the Home Assistant cli backend",
+	Short: "Get information, update or configure the Factory Assistant cli backend",
 	Long: `
-The cli command allows you to manage the internal Home Assistant CLI backend by
+The cli command allows you to manage the internal Factory Assistant CLI backend by
 exposing commands to view, monitor, configure and control it.`,
 	Example: `
   ha cli info

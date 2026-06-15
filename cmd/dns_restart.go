@@ -10,8 +10,8 @@ import (
 var dnsRestartCmd = &cobra.Command{
 	Use:     "restart",
 	Aliases: []string{"reboot"},
-	Short:   "Restarts the internal Home Assistant DNS server",
-	Long:    `Restart the internal Home Assistant DNS server running`,
+	Short:   "Restarts the internal Factory Assistant DNS server",
+	Long:    `Restart the internal Factory Assistant DNS server running`,
 	Example: `
   ha dns restart`,
 	ValidArgsFunction: cobra.NoFileCompletions,

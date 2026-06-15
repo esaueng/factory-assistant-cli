@@ -9,15 +9,15 @@ import (
 var coreCmd = &cobra.Command{
 	Use:     "core",
 	Aliases: []string{"homeassistant", "home-assistant", "ha"},
-	Short:   "Provides control of the Home Assistant Core",
+	Short:   "Provides control of the Factory Assistant Core",
 	Long: `
-This command provides a set of subcommands to control the Home Assistant Core
+This command provides a set of subcommands to control the Factory Assistant Core
 instance running on this installation.
 
-It provides commands to control Home Assistant Core (start, stop, restart),
-but also allows you to check your Home Assistant Core configuration.
+It provides commands to control Factory Assistant Core (start, stop, restart),
+but also allows you to check your Factory Assistant Core configuration.
 Furthermore, some options can be set and allows for upgrading/downgrading
-Home Assistant Core.
+Factory Assistant Core.
 `,
 	Example: `
   ha core check

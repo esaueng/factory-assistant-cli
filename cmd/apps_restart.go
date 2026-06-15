@@ -10,9 +10,9 @@ import (
 var appsRestartCmd = &cobra.Command{
 	Use:     "restart [slug]",
 	Aliases: []string{"reboot"},
-	Short:   "Restarts a Home Assistant app",
+	Short:   "Restarts a Factory Assistant app",
 	Long: `
-Restart a Home Assistant app
+Restart a Factory Assistant app
 `,
 	Example: `
   ha apps restart core_ssh

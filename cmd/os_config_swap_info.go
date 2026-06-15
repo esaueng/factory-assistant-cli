@@ -12,7 +12,7 @@ var osConfigSwapInfoCmd = &cobra.Command{
 	Aliases: []string{"in", "info"},
 	Short:   "Show HAOS swap settings",
 	Long: `
-This command allows you to see how swap is used by the Home Assistant OS.`,
+This command allows you to see how swap is used by the Factory Assistant OS.`,
 	Example: `
   ha os config swap info`,
 	ValidArgsFunction: cobra.NoFileCompletions,

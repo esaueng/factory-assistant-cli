@@ -13,10 +13,10 @@ import (
 var supervisorOptionsCmd = &cobra.Command{
 	Use:     "options",
 	Aliases: []string{"option", "opt", "opts", "op"},
-	Short:   "Allows you to set options on the Home Assistant Supervisor",
+	Short:   "Allows you to set options on the Factory Assistant Supervisor",
 	Long: `
-This command allows you to set configuration options for on the Home Assistant
-Supervisor running on your Home Assistant system.`,
+This command allows you to set configuration options for on the Factory Assistant
+Supervisor running on your Factory Assistant system.`,
 	Example: `
   ha supervisor options --channel beta
   ha supervisor options --feature-flag supervisor_v2_api=true`,

@@ -7,9 +7,9 @@ import (
 var osConfigCmd = &cobra.Command{
 	Use:     "config",
 	Aliases: []string{"conf", "cfg"},
-	Short:   "Show or change Home Assistant OS settings",
+	Short:   "Show or change Factory Assistant OS settings",
 	Long: `
-This command allows you to show or change settings of Home Assistant OS.`,
+This command allows you to show or change settings of Factory Assistant OS.`,
 	Example: `
   ha os config swap`,
 }

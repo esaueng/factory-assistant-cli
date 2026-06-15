@@ -10,9 +10,9 @@ import (
 var storeAppsUpdateCmd = &cobra.Command{
 	Use:     "update [slug]",
 	Aliases: []string{"upgrade", "up"},
-	Short:   "Upgrades a Home Assistant app to the latest version",
+	Short:   "Upgrades a Factory Assistant app to the latest version",
 	Long: `
-This command can upgrade a Home Assistant app to its latest version.
+This command can upgrade a Factory Assistant app to its latest version.
 It is currently not possible to upgrade/downgrade to a specific version.
 `,
 	Example: `

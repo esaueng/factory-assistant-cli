@@ -12,7 +12,7 @@ import (
 var appsChangelogCmd = &cobra.Command{
 	Use:     "changelog [slug]",
 	Aliases: []string{"cl", "ch"},
-	Short:   "Show changelog of a Home Assistant app",
+	Short:   "Show changelog of a Factory Assistant app",
 	Long: `
 This command shows the changelog of an app. It gives you what has been
 changed in the latest version and tell you about possible breaking changes.`,
